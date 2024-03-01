@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+ 
+body {
+    min-height: 100vh;
+    background-color: dodgerblue;
+}
+ 
+/* .AppNew {
+  display: flex;
+  flex-direction: initial;
+  justify-content: flex-start;
+   align-items: flex-start;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+} */
+ 
+section {
+   
+    width: 180%;
+    height: 150%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgb(137, 77, 65);
+}
+div{
+   
+ 
+    display:table;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+ 
+a, a:visited {
+    color: #fff;
+}
+ 
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+ 
+label,
+button {
+  margin-top: 0.5rem;
+}
+ 
+button {
+  padding: 0.5rem;
+}
+ 
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+ 
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+ 
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+ 
+.hide {
+    display: none;
+}
+ 
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+ 
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+ 
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+ 
+.line {
+    display: inline-block;
+}
+#background{
+    background: url(https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat rgb(30,30,30) fixed center center;
+    background-size: cover;
+    width:200%;
+    height:100%;
+    position:fixed
+    }
+   
+ 
+ 
